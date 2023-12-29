@@ -1,5 +1,8 @@
 # ChatGPT Python API for Weather Information
 
+<img width="1279" alt="Screenshot 2023-12-29 at 2 45 25 PM" src="https://github.com/aryan0931/chatgpt-api-python-sales/assets/141573833/ae7ba5ef-a0b6-4ab0-8f9d-e70d6f3bb861">
+
+
 This is an AI app to provide **real-time** weather information from various locations around the world. The project exposes an HTTP REST endpoint to answer user queries about the current weather conditions in a specific location or from a given input file (such as CSV, JSONlines, PDF, Markdown, Txt). It uses Pathway’s [LLM App features](https://github.com/pathwaycom/llm-app) to build a real-time LLM (Large Language Model)-enabled data pipeline in Python, leveraging OpenAI API [Embeddings](https://platform.openai.com/docs/api-reference/embeddings) and [Chat Completion](https://platform.openai.com/docs/api-reference/completions) endpoints to generate AI assistant responses.
 
 ## Features
