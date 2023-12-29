@@ -30,7 +30,7 @@ api_port = int(os.environ.get("PORT", 8080))
 
 # Paths for data files
 weather_api_key = os.environ.get("WEATHER_API_KEY")  # Set your OpenWeatherMap API key in the environment variable
-weather_path = "../data/weather_data.csv"
+weather_path = "/Users/aryanyadav/Desktop/Developer/chatgpt-api-python-weather-1/examples/data/weather.csv"
 
 # Enum for data sources
 class DataSource(Enum):
