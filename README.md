@@ -28,51 +28,7 @@ Code sample
 
 It requires only a few lines of code to build a real-time AI-enabled data pipeline:
 
-
-
-ChatGPT
-Certainly! Below is a modified version of the readme file for a weather application:
-
-markdown
-Copy code
-# ChatGPT Python API for Weather Information
-
-This is an AI app to provide **real-time** weather information from various locations around the world. The project exposes an HTTP REST endpoint to answer user queries about the current weather conditions in a specific location or from a given input file (such as CSV, JSONlines, PDF, Markdown, Txt). It uses Pathway’s [LLM App features](https://github.com/pathwaycom/llm-app) to build a real-time LLM (Large Language Model)-enabled data pipeline in Python, leveraging OpenAI API [Embeddings](https://platform.openai.com/docs/api-reference/embeddings) and [Chat Completion](https://platform.openai.com/docs/api-reference/completions) endpoints to generate AI assistant responses.
-
-## Features
-
-- Retrieves the latest weather information from various sources.
-- Provides an API interface to explore current weather conditions.
-- Offers a user-friendly UI with [Streamlit](https://streamlit.io/).
-- Filters and presents weather information based on user queries or chosen data sources.
-- Data and code reusability for offline evaluation. Users have the option to choose to use local (cached) or real data.
-- Extend data sources: Using Pathway's built-in connectors for JSONLines, CSV, Kafka, Redpanda, Debezium, streaming APIs, and more.
-
-## Further Improvements
-
-There are more things you can achieve, and here are upcoming features:
-
-- Incorporate additional data from external APIs, along with various files (such as Jsonlines, PDF, Doc, HTML, or Text format), databases like PostgreSQL or MySQL, and stream data from platforms like Kafka, Redpanda, or Debedizum.
-- Merge data from these sources instantly.
-- Maintain a data snapshot to observe variations in weather conditions over time, as Pathway provides a built-in feature to compute **differences** between two alterations.
-- Beyond making data accessible via API or UI, the LLM App allows you to relay processed data to other downstream connectors, such as BI and analytics tools. For instance, set it up to **receive alerts** upon detecting weather shifts.
-
-## Demo
-
-In case you use OpenWeatherMap API as a data source for the project, it provides real-time weather information for various locations.
-When the user has the following query in the API request:
-
-```text
-What is the weather like in New York today?
-You will get the response with current weather details for New York:
-
-LLM App responds with weather information from OpenWeatherMap
-
-As evident, ChatGPT interface offers specific information about the current weather conditions.
-
-Code sample
-
-It requires only a few lines of code to build a real-time AI-enabled data pipeline:
+<img width="461" alt="Screenshot 2023-12-29 at 2 13 03 PM" src="https://github.com/aryan0931/chatgpt-api-python-sales/assets/141573833/d568390d-71ba-4f09-a8d2-2b6c1e9cdf10">
 
 
 
