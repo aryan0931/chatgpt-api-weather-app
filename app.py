@@ -21,7 +21,7 @@ with st.sidebar:
         "AI app to find real-time weather information from OpenWeatherMap API or CSV data. "
         "It uses Pathway’s LLM App features to build a real-time LLM-enabled data pipeline in Python and join data from multiple input sources\n"
     )
-    st.markdown("[View the source code on GitHub](https://github.com/Boburmirzo/chatgpt-api-python-sales)")
+    st.markdown("[View the source code on GitHub](https://github.com/aryan0931/chatgpt-api-python-sales)")
 
 # Load environment variables
 load_dotenv()
