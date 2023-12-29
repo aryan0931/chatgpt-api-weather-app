@@ -6,18 +6,18 @@ import subprocess
 load_dotenv()
 
 if __name__ == "__main__":
-    # Fetch data from Rainforest API
+    # Fetch data from OpenWeatherMap API
     try:
-        cmd = ["python3", "examples/rainforest/data_ingestion_cron_job.py"]
+        cmd_weather = ["python3", "examples/weather/weather_data_ingestion.py"]
 
-        subprocess.run(cmd, check=True)
+        subprocess.run(cmd_weather, check=True)
     except subprocess.CalledProcessError:
-        print("Script execution failed.")
+        print("Weather data script execution failed.")
     except FileNotFoundError:
-        print("Python interpreter or the script was not found.")
+        print("Python interpreter or the weather script was not found.")
 
-    # Run Discounts API
-    host = os.environ.get("HOST", "0.0.0.0")
-    port = int(os.environ.get("PORT", 8080))
-    app_api = importlib.import_module("examples.api.app")
-    app_api.run(host=host, port=port)
+    # Run Weather API
+    host = os.environ.get("WEATHER_API_HOST", "0.0.0.0")
+    port = int(os.environ.get("WEATHER_API_PORT", 8081))
+    app_weather_api = importlib.import_module("examples.weather_api.app")
+    app_weather_api.run(host=host, port=port)
