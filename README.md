@@ -78,3 +78,6 @@ Prerequisites
 ~Make sure that Python 3.10 or above installed on your machine.
 ~Download and Install Pip to manage project packages.
 ~Create an OpenAI account and generate a new API Key: To access the ~OpenAI API, you will need to create an API Key. You can do this by logging into the OpenAI website and navigating to the API Key management page.
+
+https://github.com/aryan0931/chatgpt-api-weather-app/assets/141573833/5e198075-38a4-4acf-9f1f-6e308b0e8b1c
+
